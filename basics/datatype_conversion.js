@@ -20,3 +20,5 @@ let stringnumber=String(somenumber)
 //**operations* */
 console.log("1"+2+2)//as string is first so whole will be treated as string
 console.log(1+3+"2")//as number is first so firstly addition is performed and then concatenation
+console.log("2"==2)
+console.log("2"===2)
