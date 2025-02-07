@@ -14,5 +14,9 @@ let booleanlogged=Boolean(isloggedin)
 //"bhavna"=>true
 let somenumber=33
 let stringnumber=String(somenumber)
-console.log(stringnumber)
-console.log(typeof stringnumber)
+//console.log(stringnumber)
+//console.log(typeof stringnumber)
+
+//**operations* */
+console.log("1"+2+2)//as string is first so whole will be treated as string
+console.log(1+3+"2")//as number is first so firstly addition is performed and then concatenation
