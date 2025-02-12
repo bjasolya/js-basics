@@ -48,9 +48,9 @@ console.log(obj.fullname.userfullname.firstname)
 const obj1={1:"a",2:"b"}
 const obj2={3:"a",4:"b"}
 const obj3=Object.assign({},obj1,obj2) //assign()=>concatenation
-console.log(obj3)                       //better to use {}
+//console.log(obj3)                       //better to use {}
 const obj4={...obj1, ...obj2} //spread for concatenation
-console.log(obj4)
+//console.log(obj4)
 
 
 
@@ -69,7 +69,30 @@ const users=[
         email:"d@gmail.com"
     },
 ]
-console.log(users[1].id)
-console.log(Object.keys(users))
-console.log(Object.values(users))
-console.log(users.hasOwnProperty('id'))
+//console.log(users[1].id)
+//console.log(Object.keys(users))
+//console.log(Object.values(users))
+//console.log(users.hasOwnProperty('id'))
+
+//***de- structure*** 
+const course={
+coursename:"js",
+price:"999",
+courseinstructor:"bhavna"
+}
+
+//course.courseinstructor
+//const {value u wanna call}= course(from which value is to be called)
+const {courseinstructor:instructor}=course //object destructure
+console.log(instructor)
+
+
+// JSON : keys bhi string hoti h and values bhi string hoti h
+/*{
+    "name": "bhavna",
+    "coursename": "hindi",
+    "price": "299"
+} */
+
+
+
