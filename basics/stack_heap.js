@@ -1,4 +1,4 @@
-//stack(primitive) and stack(non primitive or reference)
+//stack(primitive) and heap(non primitive or reference)
 let myname="bhavna"
 let anothername=myname
 anothername="priya"
